@@ -14,6 +14,7 @@ return array(
     'bono.controllers' => array(
         'default' => '\\Norm\\Controller\\NormController',
         'mapping' => array(
+            '/employee' => NULL,
             // '/user' => NULL,
             // '/network' => '\\App\\Controller\\NetworkController',
             // '/container' => '\\App\\Controller\\ContainerController',
@@ -35,6 +36,10 @@ return array(
         ),
     ),
     'norm.schemas' => array(
+        'Employee' => array(
+            'first_name' => new \Norm\Schema\String('first_name', 'First Name'),
+            'last_name' => new \Norm\Schema\String('last_name', 'Last Name'),
+        ),
         // 'Container' => array(
         //     'name' => new \Norm\Schema\String('name', 'Name'),
         //     'state' => (new \Norm\Schema\String('state', 'State'))->set('readOnly', true),
