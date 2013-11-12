@@ -1,0 +1,9 @@
+{
+  "name": "emp",
+  "version": "0.0.1",
+  "description": "Employee management system",
+  "dependencies": {
+    "naked": "git@xinixhost.com:internal/naked.git",
+    "font-awesome": "http://fontawesome.io/assets/font-awesome-4.0.3.zip"
+  }
+}

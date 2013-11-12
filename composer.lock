@@ -1,0 +1,195 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+    ],
+    "hash": "db32162d56a82324eb7504968f151dc4",
+    "packages": [
+        {
+            "name": "reekoheek/jsonkit",
+            "version": "0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/reekoheek/php-jsonkit.git",
+                "reference": "9b12ba009569d694b1c84907d90904a1ff0609a6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/reekoheek/php-jsonkit/zipball/9b12ba009569d694b1c84907d90904a1ff0609a6",
+                "reference": "9b12ba009569d694b1c84907d90904a1ff0609a6",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "JsonKit": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "time": "2013-10-10 14:49:37"
+        },
+        {
+            "name": "reekoheek/util",
+            "version": "0.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/reekoheek/php-util.git",
+                "reference": "0233fb3d97c8d0be9b0198b94c74e00bf79d6215"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/reekoheek/php-util/zipball/0233fb3d97c8d0be9b0198b94c74e00bf79d6215",
+                "reference": "0233fb3d97c8d0be9b0198b94c74e00bf79d6215",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Reekoheek\\Util": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jafar Shadiq",
+                    "email": "reekoheek@gmail.com"
+                }
+            ],
+            "description": "PHP util library",
+            "time": "2013-10-09 03:33:34"
+        },
+        {
+            "name": "slim/slim",
+            "version": "2.3.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/codeguy/Slim.git",
+                "reference": "3dec4f9ee2e9c204a9f334afd72abc174c1b792e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/codeguy/Slim/zipball/3dec4f9ee2e9c204a9f334afd72abc174c1b792e",
+                "reference": "3dec4f9ee2e9c204a9f334afd72abc174c1b792e",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mcrypt": "*",
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Slim": "."
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Josh Lockhart",
+                    "email": "info@joshlockhart.com",
+                    "homepage": "http://www.joshlockhart.com/"
+                }
+            ],
+            "description": "Slim Framework, a PHP micro framework",
+            "homepage": "http://github.com/codeguy/Slim",
+            "keywords": [
+                "microframework",
+                "rest",
+                "router"
+            ],
+            "time": "2013-10-31 02:05:09"
+        },
+        {
+            "name": "xinix-technology/bono",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/xinix-technology/bono.git",
+                "reference": "cd5f9cb6fb9fa4acf35cafe1aef1e854123500c0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/xinix-technology/bono/zipball/cd5f9cb6fb9fa4acf35cafe1aef1e854123500c0",
+                "reference": "cd5f9cb6fb9fa4acf35cafe1aef1e854123500c0",
+                "shasum": ""
+            },
+            "require": {
+                "reekoheek/util": "~0.0.1",
+                "slim/slim": "2.3.*"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.22"
+            },
+            "bin": [
+                "bin/bono"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Bono": "src/"
+                }
+            },
+            "support": {
+                "source": "https://github.com/xinix-technology/bono/tree/master",
+                "issues": "https://github.com/xinix-technology/bono/issues"
+            },
+            "time": "2013-11-12 10:47:20"
+        },
+        {
+            "name": "xinix-technology/norm",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/xinix-technology/norm.git",
+                "reference": "14436549a0fcfbc59e0b855c1021fb243985dc89"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/xinix-technology/norm/zipball/14436549a0fcfbc59e0b855c1021fb243985dc89",
+                "reference": "14436549a0fcfbc59e0b855c1021fb243985dc89",
+                "shasum": ""
+            },
+            "require": {
+                "reekoheek/jsonkit": "~0.0.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.22",
+                "reekoheek/util": "~0.0.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Norm": "src/"
+                }
+            },
+            "support": {
+                "source": "https://github.com/xinix-technology/norm/tree/master",
+                "issues": "https://github.com/xinix-technology/norm/issues"
+            },
+            "time": "2013-11-12 10:44:36"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "xinix-technology/norm": 20,
+        "xinix-technology/bono": 20
+    },
+    "platform": [
+
+    ],
+    "platform-dev": [
+
+    ]
+}
